@@ -1,10 +1,29 @@
-import MovieScore from 'components/MovieScore';
+import MovieCard from 'components/MovieCard';
 import Pagination from "components/Pagination";
 function Listing() {
   return (
     <>
       <Pagination />
-      <MovieScore />
+
+      <div className="container">
+      <div className="row">
+        <div className="col">
+      <MovieCard />
+      </div>
+        <div className="col">
+      <MovieCard />
+      </div>
+        <div className="col">
+      <MovieCard />
+      </div>
+        <div className="col">
+      <MovieCard />
+      </div>
+        <div className="col">
+      <MovieCard />
+      </div>
+    </div>
+    </div>
     </>
   );
 }
